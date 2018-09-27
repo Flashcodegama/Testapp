@@ -23,7 +23,7 @@ http://www.mulesoft.org/schema/mule/api-platform-gw http://www.mulesoft.org/sche
                 <http:uri-param paramName="isocode" value="#[flowVars.isocode]"/>
             </http:request-builder>
         </http:request>
-
+Test Verified
     </flow>
     <apikit:mapping-exception-strategy name="countrycodes-apiKitGlobalExceptionMapping">
         <apikit:mapping statusCode="404">
